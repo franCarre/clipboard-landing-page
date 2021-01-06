@@ -1,0 +1,24 @@
+.btn
+  color: $col-white
+  border-radius: 5rem
+  font-size: 1.8rem
+  font-weight: $semi-bold
+  padding: 1.5rem 3.5rem
+  transition: $transition opacity
+  &:first-child
+    margin-bottom: 2rem
+    @media screen and (min-width: 768px)
+      margin: 0
+  @media screen and (min-width: 768px)
+    margin: 0 2rem
+  &:hover
+    opacity: 0.8
+  &--green
+    background-color: $col-strong-cyan
+    border-bottom: 3px solid #2f9580
+    box-shadow: 0 0.3rem 1rem rgba(30, 148, 130, 0.678)     
+  &--blue
+    background-color: $col-light-blue
+    border-bottom: 3px solid #5262dc
+    box-shadow: 0 0.3rem 1rem rgba(75, 88, 185, 0.692)
+    
